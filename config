@@ -1,0 +1,18 @@
+[core]
+    excludesfile = global-excludes
+
+[alias]
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit
+    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    ap = add -p
+    ria = rebase -i --autosquash
+    cpick = cherry-pick
+
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+
+[push]
+    default = simple
