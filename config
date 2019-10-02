@@ -7,6 +7,7 @@
     ap = add -p
     ria = rebase -i --autosquash
     cpick = cherry-pick
+    puff = pull --ff-only
 
 [color]
     branch = auto
