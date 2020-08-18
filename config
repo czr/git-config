@@ -17,6 +17,9 @@
     interactive = auto
     status = auto
 
+[pager]
+    log = less -S
+
 [push]
     default = simple
 
