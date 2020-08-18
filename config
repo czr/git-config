@@ -8,6 +8,8 @@
     ria = rebase -i --autosquash
     cpick = cherry-pick
     puff = pull --ff-only
+    d = diff
+    ds = diff --staged
 
 [color]
     branch = auto
