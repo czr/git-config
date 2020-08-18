@@ -24,4 +24,4 @@
     default = simple
 
 [diff]
-    algorithm = patience
+    algorithm = histogram
