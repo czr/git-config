@@ -4,6 +4,9 @@
     ap = add -p
     ria = rebase -i --autosquash
     cpick = cherry-pick
+    puff = pull --ff-only
+    d = diff
+    ds = diff --staged
 
 [color]
     branch = auto
@@ -11,5 +14,11 @@
     interactive = auto
     status = auto
 
+[pager]
+    log = less -S
+
 [push]
     default = simple
+
+[diff]
+    algorithm = histogram
