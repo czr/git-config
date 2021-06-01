@@ -1,12 +1,19 @@
 [alias]
     lol = log --graph --decorate --pretty=oneline --abbrev-commit
     lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+
+    co = checkout
+    cob = checkout -b
+
+    d = diff
+    ds = diff --staged
+
     ap = add -p
     ria = rebase -i --autosquash
     cpick = cherry-pick
     puff = pull --ff-only
-    d = diff
-    ds = diff --staged
+    push-u = !git push -u origin $(git symbolic-ref --short HEAD)
+
     show-merge = show --first-parent
 
 [color]
