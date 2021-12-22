@@ -12,7 +12,7 @@
     ria = rebase -i --autosquash
     cpick = cherry-pick
     puff = pull --ff-only
-    push-u = !git push -u origin $(git symbolic-ref --short HEAD)
+    pushup = !git push -u origin $(git symbolic-ref --short HEAD)
 
     show-merge = show --first-parent
 
