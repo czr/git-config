@@ -2,6 +2,7 @@
     lol = log --graph --decorate --pretty=oneline --abbrev-commit
     lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
     lolb = log --graph --decorate --pretty=oneline --abbrev-commit --branches
+    lop = log -p
 
     co = checkout
     cob = checkout -b
