@@ -9,3 +9,7 @@
 
 # direnv
 .envrc
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
