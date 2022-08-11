@@ -1,6 +1,7 @@
 [alias]
     lol = log --graph --decorate --pretty=oneline --abbrev-commit
     lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    lolb = log --graph --decorate --pretty=oneline --abbrev-commit --branches
 
     co = checkout
     cob = checkout -b
