@@ -13,3 +13,6 @@
 # Sublime Text
 *.sublime-workspace
 *.sublime-project
+
+# Personal files
+*.czr-private
