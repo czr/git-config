@@ -34,3 +34,6 @@
 [diff]
     algorithm = histogram
     noprefix = true
+
+[commit]
+    verbose = true
