@@ -33,6 +33,9 @@
 [push]
     default = simple
 
+[fetch]
+    prune = true
+
 [diff]
     algorithm = histogram
     noprefix = true
