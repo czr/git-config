@@ -29,6 +29,7 @@
 
 [pager]
     log = less -S
+    branch = false
 
 [push]
     default = simple
