@@ -19,6 +19,8 @@
 
     show-merge = show --first-parent
 
+    wip = "!sh -c \"git commit --no-verify -m \\\"WIP: $1\\\"\""
+
 [color]
     branch = auto
     diff = auto
