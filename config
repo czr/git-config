@@ -20,6 +20,7 @@
     show-merge = show --first-parent
 
     wip = "!sh -c \"git commit --no-verify -m \\\"WIP: $1\\\"\""
+    set-trello = !git config branch.$(git rev-parse --abbrev-ref HEAD).trello
 
 [color]
     branch = auto
