@@ -17,6 +17,7 @@
     ap = add -p
     ria = rebase -i --autosquash
     cpick = cherry-pick
+    cane = commit --amend --no-edit
     puff = pull --ff-only
     pushf = push --force-with-lease --force-if-includes
     pushup = !git push -u origin $(git symbolic-ref --short HEAD)
