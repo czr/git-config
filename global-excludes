@@ -14,5 +14,8 @@
 *.sublime-workspace
 *.sublime-project
 
+# Zed
+.zed
+
 # Personal files
 *.czr-private
