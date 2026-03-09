@@ -2,7 +2,7 @@
     skippedCherryPicks = false
 
 [alias]
-    lol = log --graph --decorate --pretty=oneline --abbrev-commit
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit --max-count=15
     lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
     lolb = log --graph --decorate --pretty=oneline --abbrev-commit --branches
     losd = log --graph --decorate --simplify-by-decoration --oneline --all
@@ -15,7 +15,7 @@
     ds = diff --staged
 
     ap = add -p
-    ria = rebase -i --autosquash
+    ria = rebase -i --autosquash --update-refs
     cpick = cherry-pick
     cane = commit --amend --no-edit
     puff = pull --ff-only
@@ -26,6 +26,8 @@
 
     wip = "!sh -c \"git commit --no-verify -m \\\"WIP: $1\\\"\""
     set-trello = !git config branch.$(git rev-parse --abbrev-ref HEAD).trello
+
+    alias = config --get-regexp ^alias
 
 [color]
     branch = auto
