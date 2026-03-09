@@ -17,5 +17,8 @@
 # Zed
 .zed
 
+# Claude
+.claude
+
 # Personal files
 *.czr-private
